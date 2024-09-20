@@ -1,0 +1,21 @@
+{
+  "name": "learningkafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "producer-1": "ts-node-dev --notify false src/event-producer-1.ts",
+    "producer-2": "ts-node-dev --notify false src/event-producer-2.ts",
+    "consumer": "ts-node-dev --notify false src/event-consumer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/kafkajs": "^1.9.0",
+    "@types/typescript": "^2.0.0",
+    "kafkajs": "^2.2.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
